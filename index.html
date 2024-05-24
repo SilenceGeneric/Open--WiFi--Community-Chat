@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhisperNet Captive Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>WhisperNet</h1>
+            <p>Decentralized Messaging Network</p>
+        </header>
+        <main>
+            <section id="chat" class="section">
+                <h2>Chat Room</h2>
+                <div id="chatbox"></div>
+                <input type="text" id="chat-input" placeholder="Start chatting...">
+                <button onclick="sendMessage()">Send</button>
+            </section>
+            <section id="message-board" class="section">
+                <h2>Message Board</h2>
+                <textarea id="message" placeholder="Leave a message..."></textarea>
+                <button onclick="postMessage()">Post</button>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
